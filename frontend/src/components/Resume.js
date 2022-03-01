@@ -5,27 +5,24 @@ import axios from "axios";
 import fileDownload from "js-file-download";
 
 const Resume = () => {
-
-const download = (e) => {
-    e.preventDefault()
+  const download = (e) => {
+    e.preventDefault();
     axios({
-        url:"http://localhost:4000",
-        method: "GET",
-        responseType:"blob"
+      url: "http://localhost:4000",
+      method: "GET",
+      responseType: "blob",
     }).then((res) => {
-        console.log(res)
-        fileDownload(res.data, "JordanStottsResume.pdf")
-    })
-    
-}
+      console.log(res);
+      fileDownload(res.data, "JordanStottsResume.pdf");
+    });
+  };
 
   return (
     <div>
       <Home />
       <p>Here is a link to download my updated resume!</p>
-      <div>create downloadable link to resume</div>
       <div>
-          <button onClick={(e) => download(e)} >Download</button>
+        <button onClick={(e) => download(e)}>Download Resume</button>
       </div>
     </div>
   );

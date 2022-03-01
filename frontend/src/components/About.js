@@ -31,15 +31,39 @@ const About = () => {
         <p>Job Status</p>
       </div>
       <div>
+        <p>(515)-401-2874</p>
+        <p>jordanstotts22@gmail.com</p>
+        <p>www.jordanstotts.com</p>
+        <p>October 29th, 1993</p>
+        <p>Des Moines, IA (open to remote/relocation)</p>
+        <p>ACTIVELY LOOKING</p>
+      </div>
+      <div>
         <h1>My Interests</h1>
-        <p>Sports</p>
-        <p>Travel</p>
-        <p>Movies</p>
-        <p>Concerts</p>
-        <p>Games</p>
-        <p>Code</p>
-        <p>Podcasts</p>
-        <p>Exercise</p>
+        <div>
+          <p>Sports</p>
+        </div>
+        <div>
+          <p>Travel</p>
+        </div>
+        <div>
+          <p>Movies</p>
+        </div>
+        <div>
+          <p>Concerts</p>
+        </div>
+        <div>
+          <p>Games</p>
+        </div>
+        <div>
+          <p>Code</p>
+        </div>
+        <div>
+          <p>Podcasts</p>
+        </div>
+        <div>
+          <p>Exercise</p>
+        </div>
       </div>
     </div>
   );
