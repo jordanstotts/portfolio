@@ -18,11 +18,6 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-
-      {/* <NavigationBar />
-      <div className="home-static">
-        <HomeStatic />
-      </div> */}
     </div>
   );
 }

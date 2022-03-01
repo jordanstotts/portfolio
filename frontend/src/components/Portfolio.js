@@ -6,7 +6,10 @@ const Portfolio = () => {
   return (
     <div>
       <Home />
-      Portfolio
+      <p>A few projects I've worked on</p>
+      <div>
+          links, screenshots, and short descirption of projects here
+      </div>
     </div>
   );
 };

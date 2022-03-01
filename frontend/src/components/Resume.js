@@ -6,7 +6,10 @@ const Resume = () => {
   return (
     <div>
       <Home />
-      Resume
+      <p>Here is a link to download my updated resume!</p>
+      <div>
+          create downloadable link to resume
+      </div>
     </div>
   );
 };

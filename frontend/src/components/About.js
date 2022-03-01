@@ -6,7 +6,11 @@ const About = () => {
   return (
     <div>
       <Home />
+      <div>
+        <h1>About Me</h1>
+      </div>
       <p>
+        <p>Hello! I'm Jordan</p>
         I'm currently a student in a software engineering bootcamp working on
         skills in front-end and back-end web development. My previous career as
         a professional basketball player overseas has provided me insight into
@@ -17,6 +21,26 @@ const About = () => {
         efficiently for everyone involved as well as learn, grow, and continue
         to master my craft.
       </p>
+      <div>
+        <h2>Personal Details</h2>
+        <p>Phone</p>
+        <p>Email</p>
+        <p>Website</p>
+        <p>Birthday</p>
+        <p>Location</p>
+        <p>Job Status</p>
+      </div>
+      <div>
+        <h1>My Interests</h1>
+        <p>Sports</p>
+        <p>Travel</p>
+        <p>Movies</p>
+        <p>Concerts</p>
+        <p>Games</p>
+        <p>Code</p>
+        <p>Podcasts</p>
+        <p>Exercise</p>
+      </div>
     </div>
   );
 };
