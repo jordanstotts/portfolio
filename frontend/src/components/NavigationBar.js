@@ -9,24 +9,24 @@ const NavigationBar = () => {
       <div className="nav-links">
         <Nav>
           <div>
-            <NavLink active href="#">
+            <NavLink active href="/">
               Home
             </NavLink>
           </div>
           <div>
-            <NavLink href="#">About</NavLink>
+            <NavLink href="/about">About</NavLink>
           </div>
           <div>
-            <NavLink href="#">Skills</NavLink>
+            <NavLink href="/skills">Skills</NavLink>
           </div>
           <div>
-            <NavLink href="#">Resume</NavLink>
+            <NavLink href="/resume">Resume</NavLink>
           </div>
           <div>
-            <NavLink href="#">Portfolio</NavLink>
+            <NavLink href="/portfolio">Portfolio</NavLink>
           </div>
           <div>
-            <NavLink href="#">Contact</NavLink>
+            <NavLink href="/contact">Contact</NavLink>
           </div>
         </Nav>
       </div>

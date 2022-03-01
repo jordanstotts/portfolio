@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: darkslategrey;
+  /* background-color: darkslategrey; */
   margin: auto;
 }
 html {
@@ -13,6 +13,7 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: blue;
 }
 
 .nav-myname {
