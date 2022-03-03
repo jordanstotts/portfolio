@@ -11,15 +11,15 @@ const About = () => {
       </div>
       <p>
         <p>Hello! I'm Jordan</p>
-        I'm currently a student in a software engineering bootcamp working on
-        skills in front-end and back-end web development. My previous career as
-        a professional basketball player overseas has provided me insight into
-        my next career move: building and maintaining sports betting/sports
-        centered websites that have a great user experience. In this next phase
-        of my career, I seek a role as a web developer at a company where I can
-        work on solving problems that help make websites function more
-        efficiently for everyone involved as well as learn, grow, and continue
-        to master my craft.
+        I'm a recent grad of General Assemlby's full-time immersive software
+        engineering bootcamp, which covered frontend and backend web
+        development. My previous career as a professional basketball player
+        overseas has provided me insight into my next career move: building and
+        maintaining sports betting/sports centered websites that have a great
+        user experience. In this next phase of my career, I seek a role as a web
+        developer at a company where I can work on solving problems that help
+        make websites function more efficiently for everyone involved as well as
+        learn, grow, and continue to master my craft.
       </p>
       <div>
         <h2>Personal Details</h2>

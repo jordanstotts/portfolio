@@ -7,7 +7,6 @@ html {
   background-color: grey;
 }
 
-
 /* =============== NavigationBar =============== */
 .nav-layout {
   display: flex;
@@ -28,11 +27,63 @@ html {
 }
 
 /* =============== HomeStatic =============== */
+
 .profile-pic {
   height: 15em;
   width: 15em;
 }
 
 .home-static {
-background-color: purple;
+  background-color: purple;
+  border: 2px solid black;
 }
+
+.home-socials-layout {
+  display: flex;
+  justify-content: center;
+}
+
+.home-socials {
+  height: 3rem;
+  width: 3rem;
+  margin: 0.75rem;
+  border: 2px;
+  border-radius: 35%;
+  size-adjust: 2rem;
+}
+
+/* =============== About =============== */
+
+/* =============== Skills =============== */
+.skill-logo {
+  height: 12.5rem;
+  width: 12.5rem;
+  margin: 0.5rem;
+}
+/* 
+.skill-row1 { grid-area: 1 / 1 / 2 / 8; }
+.skill-row2 { grid-area: 2 / 1 / 3 / 8; } */
+
+/* =============== Resume =============== */
+.resume-text {
+  margin-top: 3rem;
+}
+
+.resume-img {
+  height: 15rem;
+  width: 13rem;
+  /* margin: 3rem auto; */
+  margin: 2rem auto 3rem auto;
+}
+
+.download-btn {
+  margin-bottom: 5rem;
+}
+
+.download-btn:hover {
+  background-color: blue;
+}
+
+/* =============== Portfolio =============== */
+
+/* =============== Contact =============== */

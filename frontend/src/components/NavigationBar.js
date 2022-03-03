@@ -20,10 +20,10 @@ const NavigationBar = () => {
             <NavLink href="/skills">Skills</NavLink>
           </div>
           <div>
-            <NavLink href="/resume">Resume</NavLink>
+            <NavLink href="/portfolio">Portfolio</NavLink>
           </div>
           <div>
-            <NavLink href="/portfolio">Portfolio</NavLink>
+            <NavLink href="/resume">Resume</NavLink>
           </div>
           <div>
             <NavLink href="/contact">Contact</NavLink>
