@@ -4,9 +4,9 @@ import Home from "./Home";
 
 const Portfolio = () => {
   return (
-    <div>
+    <div className="portfolio-page">
       <Home />
-      <p className="portfolio-head">Projects I've worked on in the past</p>
+      <h1 className="portfolio-head">Past Projects</h1>
       <div>
           links, screenshots, and short descirption of projects here
       </div>

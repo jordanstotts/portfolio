@@ -4,7 +4,7 @@
   margin: auto;
 }
 html {
-  background-color: #132b58e7;
+  background-color: pink;
 }
 
 /* =============== NavigationBar =============== */
@@ -58,6 +58,10 @@ html {
   border-radius: 35%;
   size-adjust: 2rem;
   border: 2px solid #1bee37af;
+}
+
+.home-socials:hover {
+  background-color: #1bee37af;
 }
 
 /* =============== About =============== */
@@ -184,7 +188,7 @@ html {
 
 .skills-head {
   margin: 2rem;
-  font-size: 16pt;
+  /* font-size: 16pt; */
 }
 
 /* =============== Resume =============== */
@@ -195,7 +199,7 @@ html {
 
 .resume-text {
   margin: 2rem;
-  font-size: 16pt;
+  /* font-size: 16pt; */
 }
 
 .resume-img {
@@ -224,19 +228,34 @@ html {
 }
 
 /* =============== Portfolio =============== */
+.portfolio-page {
+  background-color: #132b58f5;
+}
+
 .portfolio-head {
   margin: 2rem;
-  font-size: 16pt;
+  /* font-size: 16pt; */
+  color: #dfdfdfcb;
+
 }
 
 /* =============== Contact =============== */
+.contact-page {
+  background-color: #132b58f5;
+  color: #dfdfdfcb;
+}
+
 .contact-head {
   margin: 2rem;
+  /* font-size: 16pt; */
 }
 
 .contacts {
   margin-top: 3rem;
   margin-bottom: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  font-size: 14pt;
 }
 
 .contact-socials {

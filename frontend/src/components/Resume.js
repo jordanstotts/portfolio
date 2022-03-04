@@ -21,7 +21,7 @@ const Resume = () => {
   return (
     <div className="resume-page">
       <Home />
-      <p className="resume-text">Feel free to download my resmue and reach out to me with any questions!</p>
+      <h1 className="resume-text">Download my resume here!</h1>
       <img  className="resume-img" src={resumeImg} alt="resume" />
       <div>
         <button className="download-btn" onClick={(e) => download(e)}>Download Resume</button>

@@ -4,9 +4,9 @@ import Home from "./Home";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="contact-page">
       <Home />
-      <p className="contact-head">Feel free to reach out to me!</p>
+      <h1 className="contact-head">Feel free to reach out to me!</h1>
       <div className="contacts">
         <p>Phone: (515)-401-2874</p>
         <p>Email: jordanstotts22@gmail.com</p>
