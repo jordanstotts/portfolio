@@ -144,9 +144,11 @@ html {
   width: 12.5rem;
   margin: 0.5rem;
 }
-/* 
-.skill-row1 { grid-area: 1 / 1 / 2 / 8; }
-.skill-row2 { grid-area: 2 / 1 / 3 / 8; } */
+
+.skills-head {
+  margin: 2rem;
+  font-size: 16pt;
+}
 
 /* =============== Resume =============== */
 .resume-text {
@@ -169,5 +171,22 @@ html {
 }
 
 /* =============== Portfolio =============== */
+.portfolio-head {
+  margin: 2rem;
+  font-size: 16pt;
+}
 
 /* =============== Contact =============== */
+.contact-head {
+  margin: 2rem;
+}
+
+.contacts {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.contact-socials {
+  height: 5rem;
+  width: 5rem;
+}

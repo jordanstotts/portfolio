@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <div>
       <Home />
-      <p>A few projects I've worked on</p>
+      <p className="portfolio-head">Projects I've worked on in the past</p>
       <div>
           links, screenshots, and short descirption of projects here
       </div>
