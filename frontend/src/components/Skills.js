@@ -5,9 +5,9 @@ import Home from "./Home";
 
 const Skills = () => {
     return (
-    <div>
+    <div className="skills-page">
       <Home />
-      <p className="skills-head">Here are a few skills and frameworks I've worked with in the past</p>
+      <p className="skills-head">Languages and frameworks I've worked with in the past</p>
           <div >
               <img className="skill-logo" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png" alt="html"/>
               <img className="skill-logo" src="https://cdn.iconscout.com/icon/free/png-256/css-37-226088.png" alt="css"/>

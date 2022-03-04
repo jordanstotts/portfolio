@@ -169,10 +169,16 @@ html {
 }
 
 /* =============== Skills =============== */
+.skills-page {
+  background-color: #132b58f5;
+  color: #dfdfdfcb;
+}
+
 .skill-logo {
   height: 12.5rem;
   width: 12.5rem;
   margin: 0.5rem;
+  margin-bottom: 5rem;
 }
 
 .skills-head {
