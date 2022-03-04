@@ -4,7 +4,7 @@ import Home from "./Home";
 
 const About = () => {
   return (
-    <div>
+    <div className="about-page">
       <Home />
       <div>
         <h1 className="about-head">About Me</h1>
@@ -39,12 +39,12 @@ const About = () => {
               <p>www.jordanstotts.com</p>
               <p>October 29th, 1993</p>
               <p>Des Moines, IA (open to remote/relocation)</p>
-              <p className="job-status">ACTIVELY LOOKING</p>
+              <p className="job-status"> ACTIVELY LOOKING </p>
             </div>
           </div>
         </div>
         <div className="interests-layout">
-          <h1>My Interests</h1>
+          <h2>My Interests</h2>
           <div className="interests-content">
             <div className="interest-card">
               <img
