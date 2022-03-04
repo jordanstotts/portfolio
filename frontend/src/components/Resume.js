@@ -19,7 +19,7 @@ const Resume = () => {
   };
 
   return (
-    <div>
+    <div className="resume-page">
       <Home />
       <p className="resume-text">Feel free to download my resmue and reach out to me with any questions!</p>
       <img  className="resume-img" src={resumeImg} alt="resume" />
