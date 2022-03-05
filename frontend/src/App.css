@@ -12,12 +12,17 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: blue;
+  background-color: whitesmoke;
 }
 
 .nav-myname {
   display: flex;
   margin-left: 5em;
+  color: #132b58f5;
+}
+
+#links {
+  color: #132b58f5;
 }
 
 .nav-links {
@@ -35,29 +40,28 @@ html {
 
 .home-static {
   /* background-color: #132b58e7; */
- 
+
   /* Option1 */
   /* background-image: url('https://w7.pngwing.com/pngs/863/104/png-transparent-green-liquid-visual-effects-special-effects-blue-darkness-turquoise-black-background-texture-atmosphere-computer-wallpaper.png') */
- 
+
   /* Option2 */
   /* background-image: url('https://ak.picdn.net/shutterstock/videos/23042362/thumb/1.jpg') */
 
+  /* Option3 */
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/775/772/large_2x/gradient-green-and-blue-abstract-geometric-background-free-vector.jpg");
+  background-size: cover;
 
-/* Option3 */
- /* background-image: url('https://static.vecteezy.com/system/resources/previews/002/775/772/large_2x/gradient-green-and-blue-abstract-geometric-background-free-vector.jpg'); */
-
- /* Option4 */
- background-image: url('https://img.freepik.com/free-vector/modern-business-background-with-digital-technology-design_1361-3299.jpg?size=626&ext=jpg');
- background-size: 106rem 27rem;
-
+  /* Option4 */
+  /* background-image: url("https://img.freepik.com/free-vector/modern-business-background-with-digital-technology-design_1361-3299.jpg?size=626&ext=jpg");
+  background-size: 106rem 27rem; */
 }
 
 .home-name {
-  color: #1bee37af;
+  color: #132b58f5;
 }
 
 .home-job-title {
-  color: #dfdfdfcb;
+  color: #132b58f5;
 }
 
 .home-socials-layout {
@@ -72,11 +76,11 @@ html {
   border: 2px;
   border-radius: 35%;
   size-adjust: 2rem;
-  border: 2px solid #1bee37af;
+  border: 2px solid #132b58f5;
 }
 
 .home-socials:hover {
-  background-color: #1bee37af;
+  background-color: #132b58f5;
 }
 
 /* ==================== About ==================== */
@@ -106,7 +110,6 @@ html {
   margin: auto;
   width: 3.5rem;
   padding-bottom: 1rem;
-
 }
 
 .hello {
@@ -245,7 +248,6 @@ html {
   margin: auto;
   width: 3.5rem;
   padding-bottom: 1rem;
-
 }
 
 /* ==================== Resume ==================== */
@@ -277,7 +279,6 @@ html {
   margin: auto;
   width: 3.5rem;
   padding-bottom: 1rem;
-
 }
 
 .resume-img {
@@ -289,9 +290,9 @@ html {
 .download-btn {
   margin-bottom: 5rem;
   color: #dfdfdfcb;
-  padding: .5%;
+  padding: 0.5%;
   background-color: #132b58f5;
-  border:2px solid #3e8e41;
+  border: 2px solid #3e8e41;
   border-radius: 10px;
 }
 
@@ -315,8 +316,6 @@ html {
   /* font-size: 16pt; */
   color: #dfdfdfcb;
   padding-bottom: 2rem;
-
-
 }
 
 .hline1 {
@@ -335,7 +334,6 @@ html {
   margin: auto;
   width: 3.5rem;
   padding-bottom: 1rem;
-
 }
 
 /* ==================== Contact ==================== */
@@ -367,7 +365,6 @@ html {
   margin: auto;
   width: 3.5rem;
   padding-bottom: 1rem;
-
 }
 
 .contacts {
