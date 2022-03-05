@@ -11,8 +11,10 @@ const HomeStatic = () => {
         src="https://media-exp1.licdn.com/dms/image/C4D03AQFbfLziM78xIQ/profile-displayphoto-shrink_800_800/0/1599148063231?e=1651708800&v=beta&t=kFke5ftXqjK0DNl2NiSifaM6fo-4H2lvFqCMXA5kU78"
       />
       <div>
-        <h1 className="home-name">Jordan Stotts</h1>
-        <p className="home-job-title">Frontend Software Engineer</p>
+        <div className="name-title">
+          <h1>Jordan Stotts</h1>
+          <p>Frontend Software Engineer</p>
+        </div>
         <div className="home-socials-layout">
           <p>
             <a href="https://www.linkedin.com/in/jordanstotts/">
