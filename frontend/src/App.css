@@ -7,7 +7,7 @@ html {
   background-color: pink;
 }
 
-/* =============== NavigationBar =============== */
+/* ==================== NavigationBar ==================== */
 .nav-layout {
   display: flex;
   justify-content: space-around;
@@ -26,7 +26,7 @@ html {
   margin-right: 7em;
 }
 
-/* =============== HomeStatic =============== */
+/* ==================== HomeStatic ==================== */
 
 .profile-pic {
   height: 15em;
@@ -34,7 +34,22 @@ html {
 }
 
 .home-static {
-  background-color: #132b58e7;
+  /* background-color: #132b58e7; */
+ 
+  /* Option1 */
+  /* background-image: url('https://w7.pngwing.com/pngs/863/104/png-transparent-green-liquid-visual-effects-special-effects-blue-darkness-turquoise-black-background-texture-atmosphere-computer-wallpaper.png') */
+ 
+  /* Option2 */
+  /* background-image: url('https://ak.picdn.net/shutterstock/videos/23042362/thumb/1.jpg') */
+
+
+/* Option3 */
+ /* background-image: url('https://static.vecteezy.com/system/resources/previews/002/775/772/large_2x/gradient-green-and-blue-abstract-geometric-background-free-vector.jpg'); */
+
+ /* Option4 */
+ background-image: url('https://img.freepik.com/free-vector/modern-business-background-with-digital-technology-design_1361-3299.jpg?size=626&ext=jpg');
+ background-size: 106rem 27rem;
+
 }
 
 .home-name {
@@ -64,7 +79,7 @@ html {
   background-color: #1bee37af;
 }
 
-/* =============== About =============== */
+/* ==================== About ==================== */
 .about-page {
   background-color: #132b58f5;
 }
@@ -72,9 +87,30 @@ html {
 .about-head {
   margin: 2rem;
   color: #dfdfdfcb;
+  padding-bottom: 2rem;
+}
+
+.hline1 {
+  display: block;
+  height: 1px;
+  border-top: 1px solid #1bee37af;
+  margin: auto;
+  width: 2rem;
+  padding-bottom: 1rem;
+}
+
+.hline2 {
+  display: block;
+  height: 1px;
+  border-top: 1px solid #1bee37af;
+  margin: auto;
+  width: 3.5rem;
+  padding-bottom: 1rem;
+
 }
 
 .hello {
+  margin-top: 4rem;
   margin-bottom: 1rem;
   color: #1bee37af;
   font-size: 15pt;
@@ -173,7 +209,7 @@ html {
   background-color: #dfdfdf70;
 }
 
-/* =============== Skills =============== */
+/* ==================== Skills ==================== */
 .skills-page {
   background-color: #132b58f5;
   color: #dfdfdfcb;
@@ -188,18 +224,60 @@ html {
 
 .skills-head {
   margin: 2rem;
+  padding-bottom: 2rem;
+
   /* font-size: 16pt; */
 }
 
-/* =============== Resume =============== */
+.hline1 {
+  display: block;
+  height: 1px;
+  border-top: 1px solid #1bee37af;
+  margin: auto;
+  width: 2rem;
+  padding-bottom: 1rem;
+}
+
+.hline2 {
+  display: block;
+  height: 1px;
+  border-top: 1px solid #1bee37af;
+  margin: auto;
+  width: 3.5rem;
+  padding-bottom: 1rem;
+
+}
+
+/* ==================== Resume ==================== */
 .resume-page {
   background-color: #132b58f5;
   color: #dfdfdfcb;
 }
 
-.resume-text {
+.resume-head {
   margin: 2rem;
+  padding-bottom: 2rem;
+
   /* font-size: 16pt; */
+}
+
+.hline1 {
+  display: block;
+  height: 1px;
+  border-top: 1px solid #1bee37af;
+  margin: auto;
+  width: 2rem;
+  padding-bottom: 1rem;
+}
+
+.hline2 {
+  display: block;
+  height: 1px;
+  border-top: 1px solid #1bee37af;
+  margin: auto;
+  width: 3.5rem;
+  padding-bottom: 1rem;
+
 }
 
 .resume-img {
@@ -227,7 +305,7 @@ html {
   background-color: #1bee37af;
 }
 
-/* =============== Portfolio =============== */
+/* ==================== Portfolio ==================== */
 .portfolio-page {
   background-color: #132b58f5;
 }
@@ -236,10 +314,31 @@ html {
   margin: 2rem;
   /* font-size: 16pt; */
   color: #dfdfdfcb;
+  padding-bottom: 2rem;
+
 
 }
 
-/* =============== Contact =============== */
+.hline1 {
+  display: block;
+  height: 1px;
+  border-top: 1px solid #1bee37af;
+  margin: auto;
+  width: 2rem;
+  padding-bottom: 1rem;
+}
+
+.hline2 {
+  display: block;
+  height: 1px;
+  border-top: 1px solid #1bee37af;
+  margin: auto;
+  width: 3.5rem;
+  padding-bottom: 1rem;
+
+}
+
+/* ==================== Contact ==================== */
 .contact-page {
   background-color: #132b58f5;
   color: #dfdfdfcb;
@@ -247,13 +346,34 @@ html {
 
 .contact-head {
   margin: 2rem;
+  padding-bottom: 2rem;
+
   /* font-size: 16pt; */
+}
+
+.hline1 {
+  display: block;
+  height: 1px;
+  border-top: 1px solid #1bee37af;
+  margin: auto;
+  width: 2rem;
+  padding-bottom: 1rem;
+}
+
+.hline2 {
+  display: block;
+  height: 1px;
+  border-top: 1px solid #1bee37af;
+  margin: auto;
+  width: 3.5rem;
+  padding-bottom: 1rem;
+
 }
 
 .contacts {
   margin-top: 3rem;
   margin-bottom: 5rem;
-  padding-top: 5rem;
+  padding-top: 2rem;
   padding-bottom: 10rem;
   font-size: 14pt;
 }

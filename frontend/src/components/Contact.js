@@ -7,6 +7,9 @@ const Contact = () => {
     <div className="contact-page">
       <Home />
       <h1 className="contact-head">Feel free to reach out to me!</h1>
+      <div className="hline1"></div>
+      <div className="hline2"></div>
+      <div className="hline1"></div>
       <div className="contacts">
         <p>Phone: (515)-401-2874</p>
         <p>Email: jordanstotts22@gmail.com</p>

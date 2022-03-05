@@ -8,6 +8,10 @@ const About = () => {
       <Home />
       <div>
         <h1 className="about-head">About Me</h1>
+        {/* <div className="hline1"></div> */}
+        <div className="hline1"></div>
+        <div className="hline2"></div>
+        <div className="hline1"></div>
       </div>
       <p className="about-caption">
         <div className="hello">Hello! I'm Jordan.</div>
