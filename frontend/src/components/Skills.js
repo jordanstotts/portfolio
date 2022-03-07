@@ -10,7 +10,7 @@ const Skills = () => {
       <div className="hline1"></div>
       <div className="hline2"></div>
       <div className="hline1"></div>
-      <div>
+      <div className="all-skills">
         <img
           className="skill-logo"
           src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png"

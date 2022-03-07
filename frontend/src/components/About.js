@@ -32,15 +32,15 @@ const About = () => {
             <div>
               <p>Phone</p>
               <p>Email</p>
-              <p>Website</p>
+              <p>Education</p>
               <p>Birthday</p>
               <p>Location</p>
               <p>Job Status</p>
             </div>
-            <div>
+            <div className="personal-info">
               <p>(515)-401-2874</p>
               <p>jordanstotts22@gmail.com</p>
-              <p>www.jordanstotts.com</p>
+              <p>University of Sioux Falls / General Assemlby</p>
               <p>October 29th, 1993</p>
               <p>Des Moines, IA (open to remote/relocation)</p>
               <p className="job-status"> ACTIVELY LOOKING </p>

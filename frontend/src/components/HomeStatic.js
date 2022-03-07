@@ -20,7 +20,7 @@ const HomeStatic = () => {
             <a href="https://www.linkedin.com/in/jordanstotts/">
               <img
                 className="home-socials"
-                src="https://cdn-icons.flaticon.com/png/512/3536/premium/3536505.png?token=exp=1646165667~hmac=31c3e2d8924eb72b0687118c1b56c5da"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png"
               />{" "}
             </a>
           </p>

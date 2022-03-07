@@ -5,7 +5,6 @@
   /* background-color: darkslategrey; */
   margin: auto;
   font-family: "Quantico", sans-serif;
-
 }
 html {
   /* background-color: pink; */
@@ -25,8 +24,6 @@ html {
   display: flex;
   margin-left: 5em;
   color: #132b58f5;
-  font-family: "Quantico", sans-serif;
-
 }
 
 #links {
@@ -37,8 +34,6 @@ html {
   display: flex;
   margin-left: auto;
   margin-right: 7em;
-  font-family: "Quantico", sans-serif;
-
 }
 
 /* ==================== HomeStatic ==================== */
@@ -52,8 +47,6 @@ html {
 .name-title {
   margin: 2rem 0 2rem 0;
   color: #132b58f5;
-  font-family: "Quantico", sans-serif;
-
 }
 
 .home-static {
@@ -85,20 +78,18 @@ html {
 
 .home-socials:hover {
   background-color: #132b58f5;
+  opacity: 0.75;
 }
 
 /* ==================== About ==================== */
 .about-page {
   background-color: #132b58f5;
-  font-family: "Quantico", sans-serif;
-
 }
 
 .about-head {
   margin: 2rem;
   color: #dfdfdfcb;
   padding-bottom: 2rem;
-  font-family: "Quantico", sans-serif;
 }
 
 .hline1 {
@@ -124,7 +115,6 @@ html {
   margin-bottom: 1rem;
   color: #1bee37af;
   font-size: 15pt;
-  
 }
 
 .about-caption {
@@ -133,7 +123,6 @@ html {
   margin: auto;
   color: #dfdfdfcb;
   text-align: start;
-  font-family: "Quantico", sans-serif;
 }
 
 .details-interests {
@@ -225,6 +214,10 @@ html {
 .skills-page {
   background-color: #132b58f5;
   color: #dfdfdfcb;
+}
+
+.all-skills {
+  margin-top: 5rem;
 }
 
 .skill-logo {
@@ -348,6 +341,35 @@ html {
   padding-bottom: 1rem;
 }
 
+.project-name {
+  color: #1bee37af;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.project-pics {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 15%;
+  margin-bottom: 2rem;
+  margin-right: 22.5rem;
+}
+
+.project-pics:hover {
+  opacity: 0.6;
+}
+
+.portfolio-caption {
+  height: 10rem;
+  width: 32rem;
+  margin: auto;
+  color: #dfdfdfcb;
+  text-align: start;
+  position: relative;
+  left: 20rem;
+  bottom: 21rem;
+}
+
 /* ==================== Contact ==================== */
 .contact-page {
   background-color: #132b58f5;
@@ -390,4 +412,121 @@ html {
 .contact-socials {
   height: 5rem;
   width: 5rem;
+}
+
+/* ============================== Mobile Version ============================== */
+@media (max-width: 915px) {
+  html {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/775/772/large_2x/gradient-green-and-blue-abstract-geometric-background-free-vector.jpg");
+    background-size: cover;
+  }
+
+  /* ========== Home Page ========== */
+  .nav-myname {
+    font-size: 36pt;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-layout {
+    display: inline-block;
+    font-size: 18pt;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .nav-links {
+    display: inline;
+    justify-content: center;
+  }
+
+  .profile-pic {
+    height: 200px;
+    width: 200px;
+  }
+
+  .home-socials {
+    height: 40px;
+    width: 40px;
+  }
+
+  /* ========== About Page ========== */
+  .hello {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-caption {
+    display: inline;
+  }
+
+  .personal-dets-content {
+    font-size: 8pt;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 2rem 1rem 2rem 1rem;
+  }
+
+  .personal-info {
+    font-size: 6.5pt;
+  }
+
+  .details-interests {
+    display: inline;
+  }
+
+  .interests-content {
+    text-align: center;
+    display: inline;
+  }
+
+  .interest-card {
+    margin: 10px;
+  }
+
+  /* ========== About Page ========== */
+
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .sharp-card {
+    display: inline;
+  }
+  .flag-card {
+    display: inline;
+    margin-top: 150px;
+  }
+  .travelwatcher-card {
+    display: inline;
+    margin-top: 250px;
+    margin-bottom: 250px;
+  }
+
+  .project-pics {
+    margin: auto;
+    height: 200px;
+    width: 200px;
+  }
+
+  .project-pics:hover {
+    opacity: 0.6;
+  }
+
+  .portfolio-caption {
+    position: inherit;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+  }
 }
