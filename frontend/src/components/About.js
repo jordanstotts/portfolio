@@ -15,15 +15,16 @@ const About = () => {
       </div>
       <p className="about-caption">
         <div className="hello">Hello! I'm Jordan.</div>
-        I'm a recent grad of General Assemlby's full-time immersive software
+        I'm a recent grad of General Assembly's full-time immersive software
         engineering bootcamp, which covered frontend and backend web
-        development. My previous career as a professional basketball player
-        overseas has provided me insight into my next career move: building and
-        maintaining sports betting/sports centered websites that have a great
-        user experience. In this next phase of my career, I seek a role as a web
-        developer at a company where I can work on solving problems that help
-        make websites function more efficiently for everyone involved as well as
-        learn, grow, and continue to master my craft.
+        development. After my previous career as an overseas professional
+        basketball player ended I began looking for a new passion off the court.
+        I have found that passion in building and maintaining well designed
+        websites that have a great user experience written with clean and
+        reusable code. In this next phase of my career, I seek a role as a
+        frontend web developer at a company where I can work on solving problems
+        that help make websites function more efficiently for everyone involved
+        as well as learn, grow, and continue to master my craft.
       </p>
       <div className="details-interests">
         <div className="personal-dets-layout">
@@ -33,15 +34,15 @@ const About = () => {
               <p>Phone</p>
               <p>Email</p>
               <p>Education</p>
-              <p>Birthday</p>
+              <p>Degree</p>
               <p>Location</p>
               <p>Job Status</p>
             </div>
             <div className="personal-info">
               <p>(515)-401-2874</p>
               <p>jordanstotts22@gmail.com</p>
-              <p>University of Sioux Falls / General Assemlby</p>
-              <p>October 29th, 1993</p>
+              <p>University of Sioux Falls / General Assembly</p>
+              <p>Sports Management with Minor in Entrepreneurial Studies</p>
               <p>Des Moines, IA (open to remote/relocation)</p>
               <p className="job-status"> ACTIVELY LOOKING </p>
             </div>

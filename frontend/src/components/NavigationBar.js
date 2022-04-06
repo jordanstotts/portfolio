@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const NavigationBar = () => {
   return (
     <div className="nav-layout">
-      <h1 className="nav-myname">Jordan</h1>
+      <h1 className="nav-myname">Jordan Stotts</h1>
       <div className="nav-links">
         <Nav>
           <div>

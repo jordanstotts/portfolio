@@ -46,7 +46,9 @@ const Portfolio = () => {
             The flag is then flown with pride for one year for all the world to
             see. This website was created as a way for us to keep track of past
             winners and losers as well as other flag tourney memories throughout
-            the years.
+            the years. 
+            <br/>
+            <br/>
           </p>
         </div>
         <div className="travelwatcher-card">

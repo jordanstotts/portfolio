@@ -18,6 +18,8 @@ html {
   justify-content: space-around;
   align-items: center;
   background-color: whitesmoke;
+  position: sticky;
+  top: 0px;
 }
 
 .nav-myname {
@@ -299,6 +301,12 @@ html {
   background-color: #132b58f5;
   border: 2px solid #3e8e41;
   border-radius: 10px;
+  text-decoration: none;
+}
+
+.download-btn-link {
+  text-decoration: none;
+  color: #dfdfdfcb;
 }
 
 .download-btn:active {
