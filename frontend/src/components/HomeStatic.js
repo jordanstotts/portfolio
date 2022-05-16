@@ -1,6 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
+import headShot from "../headshot.jpg";
+
 
 const HomeStatic = () => {
   return (
@@ -8,7 +10,7 @@ const HomeStatic = () => {
       <img
         className="profile-pic"
         alt="profile pic"
-        src="https://media-exp1.licdn.com/dms/image/C4D03AQFbfLziM78xIQ/profile-displayphoto-shrink_800_800/0/1599148063231?e=1651708800&v=beta&t=kFke5ftXqjK0DNl2NiSifaM6fo-4H2lvFqCMXA5kU78"
+        src={headShot}
       />
       <div>
         <div className="name-title">

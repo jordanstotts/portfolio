@@ -14,6 +14,25 @@ const Portfolio = () => {
       <div className="hline2"></div>
       <div className="hline1"></div>
       <div className="project-list">
+        <div className="flag-card">
+          <h3 className="project-name">The Flag Tournament</h3>
+          <a href="https://theflagtournament.herokuapp.com/">
+            <img className="project-pics" src={theFlag} alt="flag toruney" />
+          </a>
+          <p className="portfolio-caption">
+            The Annual "Where's My Ball" Tournament was created by my friends
+            and I back in the summer of 2013. We came up with the idea of having
+            a traveling trophy go to the loser of an annual golf tournament.
+            Thus the pink, I SUCK AT GOLF, flag was born. The flag is presented
+            each year to the person with the worst score after 18 holes of golf.
+            The flag is then flown with pride for one year for all the world to
+            see. This website was created as a way for us to keep track of past
+            winners and losers as well as other flag tourney memories throughout
+            the years.
+            <br />
+            <br />
+          </p>
+        </div>
         <div className="sharp-card">
           <h3 className="project-name">Sharp Payouts</h3>
           <a href="https://sharppayouts.herokuapp.com/">
@@ -32,25 +51,7 @@ const Portfolio = () => {
             betting information in one easy to use location.{" "}
           </p>
         </div>
-        <div className="flag-card">
-          <h3 className="project-name">The Flag Tournament</h3>
-          <a href="https://theflagtournament.herokuapp.com/">
-            <img className="project-pics" src={theFlag} alt="flag toruney" />
-          </a>
-          <p className="portfolio-caption">
-            The Annual "Where's My Ball" Tournament was created by my friends
-            and I back in the summer of 2013. We came up with the idea of having
-            a traveling trophy go to the loser of an annual golf tournament.
-            Thus the pink, I SUCK AT GOLF, flag was born. The flag is presented
-            each year to the person with the worst score after 18 holes of golf.
-            The flag is then flown with pride for one year for all the world to
-            see. This website was created as a way for us to keep track of past
-            winners and losers as well as other flag tourney memories throughout
-            the years. 
-            <br/>
-            <br/>
-          </p>
-        </div>
+
         <div className="travelwatcher-card">
           <h3 className="project-name">Travel Watcher</h3>
           <a href="https://travelwatcherapp.herokuapp.com/">
